@@ -53,5 +53,9 @@
 		<members>User.AllUsers</members>
 		<name>ListView</name>
 	</types>
+	<types>
+		<members>CustomTabPermissionSet</members>
+		<name>PermissionSet</name>
+	</types>
 	<version>62.0</version>
 </Package>

@@ -64,3 +64,17 @@ https://en.wikipedia.org/wiki/Dan_Harmon
 
 6- Go back to the main Home page and Refresh the web browser tab (CTRL + F5)
 
+
+### Assign Custom Permission Set to Users: 
+
+1- Go to SETUP --> Users --> Permission Sets
+
+2- Click on the permission set with label 'CustomTabPermissionSet'
+
+3- Click on the button 'Manage Assignments'
+
+4- Click on the button 'Add Assignments'
+
+5- Select those users that you want to be able to see the Custom Tab 'Rick & Morty' and then click  'Next', after that click the button 'Assign'
+
+6- Go back to the 'SchwiftyApp' page and Refresh the web browser tab (CTRL + F5) a couple of times.

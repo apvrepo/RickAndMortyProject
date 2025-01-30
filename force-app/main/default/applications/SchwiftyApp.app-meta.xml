@@ -15,6 +15,7 @@
     <label>SchwiftyApp</label>
     <navType>Standard</navType>
     <tabs>RickAndMortyAppPage</tabs>
+    <tabs>standard-OtherUserProfile</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>SchwiftyApp_UtilityBar</utilityBar>
 </CustomApplication>
