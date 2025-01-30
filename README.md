@@ -5,22 +5,32 @@ This project is an integration with the Rick and Morty API, a REST-based service
 As part of this integration, users can select their favorite character, which is then stored and automatically retrieved upon accessing their specific User Record Page. This feature enhances personalization by allowing users to engage with their preferred characters seamlessly within the platform.
 
 ## Copyrights to whoever may correspond.
+
 🥒 Rick and Morty© - Rick and Morty is created by Justin Roiland and Dan Harmon for Adult Swim. 
 The data and images are used without claim of ownership and belong to their respective owners.
 This API was created by Axel Fuhrmann and Talita, is open source and uses a BSD license.
 Salesforce implementation: Andres Pereyra  
 
-More Information:  https://rickandmortyapi.com/ 
+## More Information:  
 
-                   https://rickandmortyapi.com/about
+https://rickandmortyapi.com/ 
 
-                   https://en.wikipedia.org/wiki/Justin_Roiland 
+https://rickandmortyapi.com/about
 
-                   https://en.wikipedia.org/wiki/Dan_Harmon
+https://en.wikipedia.org/wiki/Justin_Roiland 
 
-📷 Screen captures of my short API Rest Integration Demo!
+https://en.wikipedia.org/wiki/Dan_Harmon
 
 
+## 📷 Screen captures of my short API Rest Integration Demo!
+
+![IMG01](https://github.com/user-attachments/assets/a95d7feb-758d-4734-8371-795f943521e6)
+
+![IMG02](https://github.com/user-attachments/assets/4f23f15f-376c-47db-b1f8-539308c4683b)
+
+![IMG03](https://github.com/user-attachments/assets/b343a81b-699c-4a77-b9b0-790dea1abec4)
+
+![IMG04](https://github.com/user-attachments/assets/18c6ecb1-d653-43ff-a00b-7131f64864d0)
 
 
 ## POST-DEPLOY Manual Steps:
