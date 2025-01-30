@@ -1,0 +1,38 @@
+<!-- sldsValidatorIgnore -->
+<template>
+    <template if:false={character}>
+        <div class="exampleHolder">
+            <lightning-spinner alternative-text="Loading" size="large"></lightning-spinner>
+        </div>
+    </template>
+    <template if:true={character}>
+        <lightning-card>
+            <div class="slds-p-left_x-large character-details">
+                <h2 class="slds-text-heading_medium"><strong>Favorite Character</strong></h2>
+            </div>
+                <div class="character-card">
+                    <div class="character-image-container">
+                        <img src={character.imageUrl} alt={character.name} class="character-image" />
+                    </div>
+                    <div class="character-details">
+                        <h2 class="slds-text-heading_medium"><strong>{character.name}</strong></h2>
+                        <p class="slds-m-top_small">
+                            <span class={character.statusClass}></span>
+                            <span>{character.status} - {character.species}</span>
+                        </p>
+                        <p class="slds-m-top_small">
+                            <strong>Last known location:</strong> {character.location}
+                        </p>
+                        <p class="slds-m-top_small">
+                            <strong>First seen in:</strong> {character.firstSeenIn}
+                        </p>
+                        <p class="slds-m-top_small slds-text-body_small">
+                            &copy; Rick and Morty. Rick and Morty is created by Justin Roiland and Dan Harmon for Adult Swim. 
+                            The data and images are used without claim of ownership and belong to their respective owners.
+                            This API was created by Axel Fuhrmann and Talita, is open source and uses a BSD license.
+                        Salesforce implementation: Andres Pereyra</p>
+                    </div>
+                </div>
+        </lightning-card>
+    </template>
+</template>

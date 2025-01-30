@@ -1,0 +1,66 @@
+<!-- sldsValidatorIgnore -->
+<template>
+        <template if:false={loaded}>
+            <div class="exampleHolder">
+                <lightning-spinner alternative-text="Loading" size="large"></lightning-spinner>
+            </div>
+        </template>
+        <template if:true={loaded}>
+            <lightning-card> <!-- title="Rick and Morty Characters" -->
+                <div class="slds-grid slds-wrap">
+                    <template if:true={characters}>
+                        <template for:each={characters} for:item="character">
+                            <div key={character.characterId} class="slds-col slds-size_1-of-3 slds-p-around_small">
+                                <div
+                                    class="slds-box slds-box_link slds-theme_default slds-p-around_small character-card">
+                                    <div class="slds-grid slds-gutters">
+                                        <!-- Character Image -->
+                                        <div class="slds-col slds-size_1-of-3">
+                                            <img src={character.imageUrl} alt={character.name}
+                                                class="character-image" />
+                                        </div>
+
+                                        <!-- Character Info -->
+                                        <div class="slds-col slds-size_2-of-3">
+                                            <div class="slds-text-heading_medium">{character.name}</div>
+                                            <div class="slds-m-top_small">
+                                                <!-- Reference the precomputed status class -->
+                                                <span class={character.statusClass}></span>
+                                                <span class="slds-text-body_small">{character.status} -
+                                                    {character.species}</span>
+                                            </div>
+                                            <div class="slds-m-top_small slds-text-body_small">
+                                                <strong>Last known location:</strong> {character.location}
+                                            </div>
+                                            <div class="slds-m-top_small slds-text-body_small">
+                                                <strong>First seen in:</strong> {character.firstSeenIn}
+                                            </div>
+                                            <!-- Select Button -->
+                                            <div style="margin-top: 1.5rem">
+                                                <lightning-button variant="brand" label="Select"
+                                                    data-id={character.characterId}
+                                                    onclick={handleSelect}></lightning-button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </template>
+                    </template>
+                </div>
+                <!-- Pagination Controls -->
+                <div class="pagination slds-m-top_medium slds-text-align_center">
+                    <lightning-button label="Previous" variant="brand" onclick={handlePreviousPage}
+                        disabled={isPreviousDisabled}></lightning-button>
+                    <lightning-button variant="brand" label="Next" onclick={handleNextPage}></lightning-button>
+                </div>
+                <!-- Footer -->
+                <footer class="slds-m-top_medium slds-text-align_center">
+                    <p>&copy; Rick and Morty. Rick and Morty is created by Justin Roiland and Dan Harmon for Adult Swim. 
+                        The data and images are used without claim of ownership and belong to their respective owners.
+                        This API was created by Axel Fuhrmann and Talita, is open source and uses a BSD license.
+                    Salesforce implementation: Andres Pereyra</p>
+                </footer>
+            </lightning-card>
+        </template>
+</template>

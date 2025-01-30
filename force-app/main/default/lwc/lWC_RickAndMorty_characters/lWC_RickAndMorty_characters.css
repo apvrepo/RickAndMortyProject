@@ -1,0 +1,40 @@
+.character-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.character-card {
+    border: solid !important;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.status-alive {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: green;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.status-dead {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: red;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.pagination { 
+    font-size: large !important;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+body {
+    background-color: hsl(0, 0%, 58%) !important;
+}
