@@ -39,7 +39,7 @@ https://en.wikipedia.org/wiki/Dan_Harmon
 
 1- Go to SETUP --> Apps --> App Manager
 
-2- Find the App with Developer Name = 'ArcadeApp1' then click the option 'Edit' of it.
+2- Find the App with Developer Name = 'SchwiftyApp' then click the option 'Edit' of it.
 
 3- On the App Settings column, select the tab 'User Profiles' then add the profiles that you want to allow to see the App (Suggestion 'System Administrator', 'Standard User', and 'Standard Platform User')
 
