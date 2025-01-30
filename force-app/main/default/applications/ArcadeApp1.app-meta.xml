@@ -41,7 +41,6 @@
     <tabs>RickAndMortyAppPage</tabs>
     <tabs>standard-home</tabs>
     <tabs>standard-OtherUserProfile</tabs>
-    <tabs>Log__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Arcade_UtilityBar</utilityBar>
 </CustomApplication>

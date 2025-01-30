@@ -35,6 +35,8 @@ https://en.wikipedia.org/wiki/Dan_Harmon
 
 ## POST-DEPLOY Manual Steps:
 
+### Activate App: 
+
 1- Go to SETUP --> Apps --> App Manager
 
 2- Find the App with Developer Name = 'ArcadeApp1' then click the option 'Edit' of it.
@@ -46,3 +48,19 @@ https://en.wikipedia.org/wiki/Dan_Harmon
 5- Go back to the main Home page and Refresh the web browser tab (CTRL + F5)
 
 6- Finally you can go to the 'App Launcher' and you should be able to see the new App 'Arcade'
+
+
+### Make custom field visible: 
+
+1- Go to SETUP --> Object Manager --> User --> Fields & Relationships
+
+2- Search on the quick find box for a field with 'Field Name' =  FavoriteCharacterId__c , then click on its field label.
+
+3- Click on the button 'Set Field-Level Security'
+
+4- Make Sure to check the 'Visible' option for every profile or at least for 'System Administrator', 'Standard User', and 'Standard Platform User'.
+
+5- Click 'Save'
+
+6- Go back to the main Home page and Refresh the web browser tab (CTRL + F5)
+
