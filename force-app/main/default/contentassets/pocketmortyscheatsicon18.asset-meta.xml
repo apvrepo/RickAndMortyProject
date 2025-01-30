@@ -2,7 +2,7 @@
 <ContentAsset xmlns="http://soap.sforce.com/2006/04/metadata">
     <isVisibleByExternalUsers>false</isVisibleByExternalUsers>
     <language>en_US</language>
-    <masterLabel>pixelArtJoystickIcon8bitGame</masterLabel>
+    <masterLabel>pocketmortyscheatsicon18</masterLabel>
     <relationships>
         <organization>
             <access>VIEWER</access>
@@ -11,7 +11,7 @@
     <versions>
         <version>
             <number>1</number>
-            <pathOnClient>pixelArtJoystickIcon8bitGame.png</pathOnClient>
+            <pathOnClient>pocket-mortys-cheats-icon-18.jpeg</pathOnClient>
         </version>
     </versions>
 </ContentAsset>
